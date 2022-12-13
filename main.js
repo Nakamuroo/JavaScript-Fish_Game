@@ -148,7 +148,6 @@ function Fish(fishImageId, gameFieldId, namberFishes, scoreFieldId) {
             return;
         }
         if(gameStatistic.endOfGame){
-            // gameFieldTag.style.filter = 'blur(2px)';
             document.getElementById('gameOver').setAttribute('class', 'gameOverAnimate gameOver');
         }
         if(newTime-oldTime>80){
